@@ -140,33 +140,51 @@ void loop() {
   }
 }
 
+
+
+     
+     
+
 ✅ Advantages
 
 Hands-free mobility control
+
 Low-cost implementation
+
 Open-source platform
+
 Easy to customize and expand
+
 Compact and simple two-motor mechanism
 
 ⚠️ Limitations
 
 Voice recognition errors in noisy environments
+
 Requires periodic battery charging
+
 Basic Bluetooth range limitation
 
 🚀 Future Enhancements
 
 Ultrasonic sensor-based obstacle avoidance
+
 AI-based voice recognition
+
 GPS tracking integration
+
 IoT-based remote monitoring
+
 Emergency automatic braking system
 
 📊 Applications
 
 Assistive mobility devices
+
 Hospitals and rehabilitation centers
+
 Elderly care support systems
+
 Smart mobility research projects
 
 📌 Conclusion
