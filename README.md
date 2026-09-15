@@ -17,50 +17,77 @@ The primary goal is to create an affordable, accessible, and easy-to-use assisti
 🎯 Objectives
 
 Enable hands-free wheelchair control using Bluetooth-transmitted voice commands.
+
 Ensure smooth, safe, and reliable motor operation.
-Develop a cost-effective prototype using Arduino components.
+
+Develop a cost-effective prototype using Arduino components
+
 Create a scalable platform for future smart enhancements.
 
 🧩 Hardware Components
 
 Component	Description
-Arduino UNO	                   Main controller that processes Bluetooth commands
-HC-05 Bluetooth Module	       Receives wireless commands from smartphone
-L293D Motor Driver             Shield	Controls DC motor direction and speed
-2 DC Motors	                   Provide forward,backward and turning motion
-External Battery	             Supplies power to motors and Arduino
-Power Switch	                 Turns system ON/OFF
+Arduino UNO	              ----->     Main controller that processes Bluetooth commands
+
+HC-05 Bluetooth Module	  ----->        Receives wireless commands from smartphone
+
+L293D Motor Driver        ----->           Shield	Controls DC motor direction and speed
+
+2 DC Motors	              ----->           Provide forward,backward and turning motion
+
+External Battery	        ----->           Supplies power to motors and Arduino
+
+Power Switch	            ----->            Turns system ON/OFF
 
 🔌 Circuit Connections
 
 HC-05 TX → Arduino Pin 10
+
 HC-05 RX → Arduino Pin 11
+
 Motor Shield mounted directly on Arduino UNO
+
 Motor 1 connected to M1
+
 Motor 2 connected to M2
+
 External battery connected to motor shield
 
 ⚙️ System Working
 
 User gives voice command via smartphone.
+
 Smartphone converts speech into characters:
+
 F (Forward)
+
 B (Backward)
+
 L (Left)
+
 R (Right)
+
 S (Stop)
+
 Command transmitted via Bluetooth.
+
 Arduino receives command.
+
 Motor driver activates motors accordingly.
+
 Wheelchair moves in desired direction.
 
 🕹️ Command Mapping
 
 Character	Action
 F	Move Forward
+
 B	Move Backward
+
 L	Turn Left
+
 R	Turn Right
+
 S	Stop
 
 💻 Arduino Program
