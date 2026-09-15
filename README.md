@@ -39,7 +39,9 @@ Motor Shield mounted directly on Arduino UNO
 Motor 1 connected to M1
 Motor 2 connected to M2
 External battery connected to motor shield
+
 ⚙️ System Working
+
 User gives voice command via smartphone.
 Smartphone converts speech into characters:
 F (Forward)
@@ -51,14 +53,18 @@ Command transmitted via Bluetooth.
 Arduino receives command.
 Motor driver activates motors accordingly.
 Wheelchair moves in desired direction.
+
 🕹️ Command Mapping
+
 Character	Action
 F	Move Forward
 B	Move Backward
 L	Turn Left
 R	Turn Right
 S	Stop
+
 💻 Arduino Program
+
 #include <AFMotor.h>
 
 AF_DCMotor motor1(1);
@@ -106,6 +112,7 @@ void loop() {
     }
   }
 }
+
 ✅ Advantages
 
 Hands-free mobility control
